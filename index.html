@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/catShop.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Shop</title>
+</head>
+<body>
+
+  <div class="wrap">
+    <div class="back"></div>
+    <div id="login">
+      <form>
+        <h2>Login</h2>
+        <p>구름이의 일상을 선물하는<br>구름스토어에 오신 것을 환영해요</p>
+        <input id="id" type="text" placeholder="guleum을 입력해주세요">
+        <input id="pw" type="password" placeholder="210120을 입력해주세요">
+        <button id="submit" type="submit">로그인</button>
+        <div class="save"><i class="ri-checkbox-circle-line"></i><span>아이디 저장</span></div>
+      </form>
+    </div>
+
+    <header>
+      <div id="top">
+        <p>구름이의 사생활을 담은 사진들을 만나보세요</p>
+      </div>
+      <div id="back"><img src="img/main.jpg" alt=""></div>
+      <nav>
+        <a href="index.html"><div id="logo"><img src="img/logo.svg" alt="">guleum</div></a>
+        <ul>
+          <li>
+            <a href="cart.html" style="margin-right: 35px;">
+              <i class="ri-shopping-bag-fill"></i>
+              <p>cart</p>
+            </a>
+          </li>
+          <li id="loginBtn">
+            <a href="#none">
+              <i class="ri-user-fill"></i>
+              <p>login</p>
+            </a>
+          </li>
+          <li id="logout">
+            <a href="#none">
+              <i class="ri-user-fill"></i>
+              <p>logout</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="bottom">
+        <p>
+          Meet the pictures of<br>
+          Guleum's daily life at guleum store
+        </p>
+      </div>
+    </header>
+    <section id="content1">
+      <h2>guleum's poster</h2>
+      <ul class="view1">
+        <li class="item">
+          <img src="img/cat1.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart1">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name1">guleum's sitting in hammock</p>
+          <p class="price1">35$</p>
+        </li>
+        <li class="item">
+          <img src="img/cat7.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart2">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name2">photo model guleum</p>
+          <p class="price2">28$</p>
+        </li>
+        <li class="item">
+          <img src="img/cat4.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart3">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name3">cat tower model guleum</p>
+          <p class="price3">42$</p>
+        </li>
+      </ul>
+      <button class="plus first">more view</button>
+      <ul class="view2">
+        <li class="item">
+          <img src="img/cat2.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart4">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name4">guleum's looking back while eating</p>
+          <p class="price4">23$</p>
+        </li>
+        <li class="item">
+          <img src="img/cat3.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart5">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name5">guleum looking out the window</p>
+          <p class="price5">32$</p>
+        </li>
+        <li class="item">
+          <img src="img/cat5.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart6">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name6">Cat Tower Hunter guleum</p>
+          <p class="price6">46$</p>
+        </li>
+      </ul>
+      <button class="plus last">more view</button>
+      <ul class="view3">
+        <li class="item">
+          <img src="img/cat6.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart7">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name7">guleum childhood</p>
+          <p class="price7">28$</p>
+        </li>
+        <li class="item">
+          <img src="img/cat9.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart8">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name8">dollish guleum</p>
+          <p class="price8">34$</p>
+        </li>
+        <li class="item">
+          <img src="img/cat8.jpg" alt="">
+          <div>
+            <button onclick="location.href='cart.html'" class="cart cart9">add Shopping bag</button>
+            <button class="like"><i class="ri-heart-3-line"></i></button>
+          </div>
+          <p class="name9">guleum playing with toys</p>
+          <p class="price9">38$</p>
+        </li>
+      </ul>
+    </section>
+    <section id="content2">
+      <div id="sub"><img src="img/catsub.jpg" alt=""></div>
+    </section>
+    <section id="content3">
+      <div>
+        <h2>poster recommendation</h2>
+        <div>
+          <div class="keyword">
+            <p id="key1" class="select">Cute</p>
+            <p id="key2">Warm</p>
+            <p id="key3">Chic</p>
+            <p id="key4">Young</p>
+            <p id="key5">Adult</p>
+          </div>
+        </div>
+        <div class="views">
+          <ul class="view viewNow" id="view1">
+            <li>
+              <img src="img/cat1.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart1">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum's Sitting In Hammock</p>
+                <p>35$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat5.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart6">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Cat Tower Hunter Guleum</p>
+                <p>46$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat6.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart7">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum Childhood</p>
+                <p>28$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat8.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart9">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum Playing With Toys</p>
+                <p>38$</p>
+              </div>
+            </li>
+          </ul>
+  
+          <ul class="view" id="view2">
+            <li>
+              <img src="img/cat7.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart2">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>photo model guleum</p>
+                <p>28$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat4.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart3">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Cat Tower Model Guleum</p>
+                <p>42$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat9.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart8">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Dollish Guleum</p>
+                <p>34$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat5.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart6">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Cat Tower Hunter Guleum</p>
+                <p>46$</p>
+              </div>
+            </li>
+          </ul>
+  
+          <ul class="view" id="view3">
+            <li>
+              <img src="img/cat1.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart1">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum's Sitting In Hammock</p>
+                <p>35$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat2.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart4">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum's Looking Back While Eating</p>
+                <p>23$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat3.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart5">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum Looking Out The Window</p>
+                <p>32$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat9.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart8">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Dollish Guleum</p>
+                <p>34$</p>
+              </div>
+            </li>
+          </ul>
+  
+          <ul class="view" id="view4">
+            <li>
+              <img src="img/cat7.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart2">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Photo Model Guleum</p>
+                <p>28$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat6.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart7">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum Childhood</p>
+                <p>28$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat9.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart8">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Dollish Guleum</p>
+                <p>34$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat8.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart9">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum Playing With Toys</p>
+                <p>38$</p>
+              </div>
+            </li>
+          </ul>
+  
+          <ul class="view" id="view5">
+            <li>
+              <img src="img/cat4.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart3">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Cat Tower Model Guleum</p>
+                <p>42$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat2.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart4">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum's Looking Back While Eating</p>
+                <p>23$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat3.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart5">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Guleum Looking Out The Window</p>
+                <p>32$</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/cat5.jpg" alt="">
+              <div class="btn">
+                <button onclick="location.href='cart.html'" class="cart cart6">add Shopping bag</button>
+                <button class="like"><i class="ri-heart-3-line"></i></button>
+              </div>
+              <div class="pText">
+                <p>Cat Tower Hunter Guleum</p>
+                <p>46$</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <div id="logo2"><img src="img/logoBottom.svg" alt="">guleum</div>
+      </div>
+      <p>
+        <span>
+          구름이를 아끼고 사랑하는 집사가 만든 구름이 스토어입니다<br>
+          인스타그램에서 더 귀여운 구름이를 만나보세요
+        </span>
+        <span>
+          <a href="catshop.html"><i class="ri-home-4-line"></i></a>
+          <a href="https://www.instagram.com/minsong_ing/"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-arrow-up-line"></i></a>
+        </span>
+      </p>
+    </footer>
+  </div>
+
+
+  <script src="js/catShop.js"></script>
+</body>
+</html>
